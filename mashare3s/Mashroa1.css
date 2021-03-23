@@ -1,0 +1,393 @@
+/* 388 lines */
+
+.container {width: 900px; margin: auto; }
+    
+.clearfix {clear:both}
+
+
+.fl-left{float: left; }
+
+.setting-box {
+    position: fixed;
+    left: -200px;
+    top: 0;
+    min-height: 100%;
+    width: 200px;
+    background-color: #fff;
+    border: 1px solid #111;
+    z-index: 1000;
+    transition: .5s ease-in-out;
+} 
+
+hassan abd alkareem jabbr shnon mankr
+
+.open { left:0; }
+
+.setting-box .icon {
+    position: absolute;
+    right: -60px;
+    height: 40px;
+    width: 60px;
+    top: 100px;
+    background-color: #2CCD70;
+    cursor: pointer;
+
+}
+
+
+.header .slider {
+    background-color: white;
+    height: 500px; 
+    background-image: url("../img/desing2.jpg");
+background-size: cover;}
+
+    .header .slider .intro {
+        text-align:center;
+        position: relative;
+        top: 200px;
+    } 
+
+    .header .slider .intro h2 {  
+         margin: 0 auto;
+        color: #fff;
+        font-size:20px;
+        width: 250px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+border-top: 3px solid #fff;
+border-bottom: 3px solid #fff;
+padding: 5px; } 
+
+.header .slider .intro button {
+background:#252F31;
+cursor: pointer;
+ color: #fff; 
+margin: 15px ;
+padding: 2px 20px; }
+
+.header .navbar {
+    background-color: #252F31;
+    color: #fff;
+    overflow: auto;
+    text-transform: uppercase; }
+
+.header .navbar h2 span {color: #36CC7C;}
+
+.header .navbar ul {
+    list-style:none;
+    padding-left:0 ;
+    overflow: hidden;
+    float: right; }
+
+.header .navbar ul li { float: left;  padding: 10px; }
+
+.header .navbar ul li a {color: #fff; }
+
+    .header .navbar ul li span,
+    .header .navbar ul li a:hover{ color: #36CC7C; }
+
+/*end header*/
+
+
+/* start features*/
+.features {
+overflow: hidden;  
+padding-top: 20px;
+padding-bottom: 20px; 
+text-align: center;}
+
+.features .box {
+    width: 33%;
+    text-align: center;
+    height: 200px;
+    background-color: #F2F2F2; }
+
+.features .box h2 {text-transform: uppercase ;color: #333; text-align: center;}
+
+.features .box p {line-height: 1.6; color: #999 ; text-align: center;}
+
+/* end features*/
+
+
+/* start about me */
+.about-me{
+    background-color: #F2F2F2;
+    height: 500px;
+    padding-top: 40px;
+    padding-bottom: 40px; }
+
+.about-me .image img { 
+    height: 400px;
+    width: 250px;
+    position: relative;
+    border-radius: 50%;
+    top: 40px;
+    left: 10px;
+    border: 2px solid yellow;
+} 
+
+.about-me .infoo {
+float: right;
+width:70% }
+
+.about-me .infoo> h2 {margin: 40px 30px; color: #444; }
+
+.about-me .infoo p {
+position: relative;
+bottom: 30px; left: 30px;
+line-height: 1.7;
+color: #888; }
+
+.about-me .box h3 {
+    color: #444;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+ 
+.about-me .box {
+ overflow: hidden;
+width: 50%;
+position: relative;
+left: 30px;  bottom: 30px;}
+
+.about-me .infoo .box p {
+    overflow: hidden;
+    position: relative;
+    left: 5px;  bottom: 10px;
+    color:#888;}
+
+/* end about me */
+
+
+/* start my skils */
+
+.my-skils{ overflow: hidden; width: 100%; }
+
+.my-skils .skils,
+.my-skils .photoshop {
+    width: 50%;
+    height: 300px;
+margin-top: 50px;
+margin-bottom: 20px;
+position: relative;
+left: 100px; }
+
+.my-skils .photoshop,
+.my-skils .skils {
+    position: relative;
+    left: 20px;
+}
+
+.my-skils h2 { color:#444; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+.my-skils p {color: #888;}
+
+.my-skils .skils button {
+background-color:#fff;
+ border: 2px solid #2CCD70;
+  color: #2ccd6fea;
+padding: 10px 60px;
+margin-top: 5px;}
+
+.my-skils h3 {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color:#666; 
+margin-left: 75px;
+margin-top: 15px;
+}
+
+.my-skils .photoshop div {
+    position: relative;
+    left: 75px; bottom: 10px;
+    width: 350px;
+    height: 20px;
+    background-color:#F2F2F2; }
+
+.my-skils span {
+    line-height: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #36CC7C;
+    height: 20px;
+    text-align: right;
+    color: #fff;
+    display: block;}
+
+/* end my skils */
+
+/* start resume*/
+.resume {
+    height: 250px;
+    background-color: #F2F2F2;
+    text-align: center;
+  padding-top: 50px;}
+
+.resume h2 { color:#444; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+.resume p {color:#888}
+
+.resume button {
+ border: 2px solid #2CCD70;
+background-color: none; 
+color: #2CCD70;
+  padding: 10px 30px;
+margin-top: 20px;}
+/*end resyme */
+
+/* start my edg */
+.my-edg {
+overflow: hidden;
+padding-top: 30px; }
+
+.my-edg .edg h2 {color: #444; }
+
+.my-edg .edg p {color: #888;}
+
+.my-edg .edg {position: relative; right: 20px;}
+    
+.my-edg .edg, .my-edg .graphac { width: 50%; }
+
+.my-edg .all {padding-top: 100px; position: relative; left: 30px; bottom: 40px;}
+
+.my-edg .graphac h2 {color:#444}
+
+.my-edg .graphac p {color:#888}
+
+.my-edg span {
+    color: #fff;
+    background-color: #36CC7C; 
+    width: 50px; 
+    display: block;
+    position: relative; bottom: 12px; padding-right: 8px; padding-top: 3px; padding-bottom: 3px;
+line-height: normal;}
+    /* end my edg */
+
+/* start my work */
+
+.my-work{overflow: hidden; padding-top: 30px; }
+
+.my-work .work h2 {color: #444; }
+
+.my-work .work p {color: #888;}
+
+.my-work .work {position: relative; right: 20px;}
+
+.my-work .work, .my-work .lead {width: 50%; }
+
+.my-work .all {padding-top: 100px; position: relative; left: 30px; bottom: 40px;}
+
+.my-work .lead h2 {color:#444}
+
+.my-work .lead p {color:#888}
+
+.my-work span {
+    color: #fff;
+    background-color: #36CC7C; 
+    width: 50px; 
+    display: block;
+    position: relative; bottom: 12px; padding-right: 8px; padding-top: 3px; padding-bottom: 3px;
+line-height: normal;}
+    /* end my work*/
+
+/* start professor */
+
+.test  {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+     background-color: #F2F2F2; }
+
+.test h4 {color: #555;}
+
+.test p {color:#555; font-style:italic;}
+
+.test ul {
+    text-align: center; 
+    padding-left:0;
+position: relative; bottom: 5px; }
+     
+.test ul li {
+    height: 10px;
+    width: 10px;
+     border:2px solid #36CC7C;
+     display: inline-block;
+    cursor: pointer; }
+
+.test ul li.active, .test ul li:hover { background-color:#36CC7C;}
+/* end professor */
+
+    /* start portfolio */
+
+    .portfolio { overflow: hidden; padding-top: 50px; text-align: center; }
+
+       .portfolio p {padding-bottom: 50px; font-style: italic; color: #888;}
+
+       .portfolio h3 {color: #555;}
+
+ .portfolio .image > div {
+     float: left;
+    overflow: hidden;
+     width: 33.333333%; }
+
+     .portfolio .image img {width:99%; ;}
+
+     /* end portfolio */
+
+     /*start contact me */
+
+     .info {
+        overflow: hidden;
+         position: relative ; top: 50px;
+        background-color: #252F31; }
+
+.info .contact,.info .form {
+width: 50%;
+height: 575px;
+padding-top: 20px;
+padding-bottom: 10px;}
+
+    .contact h3 {
+        color: #fff;
+    text-transform: uppercase; 
+    font-style: italic; }
+
+        .contact p { color: #73787B; font-style: italic; }
+        .contact p span {color: #ffffffff; font-size: 15px; }
+        .contact  p.list {position: relative; bottom: 14px;}
+        .contact p.box2 {position: relative; bottom: 15px;}
+        .contact p.box3 {position: relative; bottom: 25px;}
+        .info .form { position: relative; left: 75px; top: 30px; }
+        .info .form p {color: #73787B}
+
+    .info .form div {
+        background-color: #4B5557;
+        width: 400px;
+        height: 30px;
+        position: relative; bottom: 10px; }
+
+    .info .form .lest {
+        background-color: #4B5557;
+        width: 400px;
+        height: 250px;
+        position: relative; bottom: 10px; }
+
+        .info .form button {
+            position: relative;
+            top: 15px;
+            height: 35px;
+            width: 25%;
+            border: 1px solid #191E22 ;
+            background-color: #191E22;
+            color: #F2F2F2; }
+        
+    /*end contact me */
+
+    .foter{
+        color: #fff;
+        text-align: center;
+        overflow: hidden;
+        position: relative; top: 30px;
+        height: 100px;
+        background-color: #191E22; }
+
+        .foter h4 {
+            color: #999;
+            font-size: 15px;
+            position: relative; top: 20px;
+        font-style: italic;}
